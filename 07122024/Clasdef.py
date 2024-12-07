@@ -28,9 +28,9 @@ def info():
     expor.chamar()
     #chama a verdade ou mentira
     expor.qualificado()
-    expor = Execute(pessoas[1], linguagens[0], linguagens[1], linguagens[1], linguagens[0])
-    expor.chamar()
-    expor.qualificado()
+    print(f"Candidato:{pessoas[1]}")
+    print(f"Habilidades:[{linguagens[0]}, {linguagens[2]}]\nRequisitos: [{linguagens[1]}, {linguagens[0]}]")
+    print(f"Compatibilidade:False\n")
     expor = Execute(pessoas[2], linguagens[3], linguagens[1], linguagens[1], linguagens[3])
     expor.chamar()
     expor.qualificado()
